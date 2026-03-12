@@ -2,4 +2,9 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-return {}
+return {
+  require 'custom.plugins.window-picker',
+  require 'custom.plugins.vim-tmux-navigator',
+  require 'custom.plugins.parrot',
+  require 'custom.plugins.aerial',
+}
