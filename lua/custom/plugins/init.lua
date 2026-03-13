@@ -3,8 +3,8 @@
 --
 -- See the kickstart.nvim README for more information
 return {
-  require 'custom.plugins.window-picker',
   require 'custom.plugins.vim-tmux-navigator',
-  require 'custom.plugins.parrot',
-  require 'custom.plugins.aerial',
+  -- require 'custom.plugins.window-picker',
+  -- require 'custom.plugins.parrot',
+  -- require 'custom.plugins.aerial',
 }
