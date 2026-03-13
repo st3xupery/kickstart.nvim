@@ -2,9 +2,11 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
+---@module 'lazy'
+---@type LazySpec
 return {
   require 'custom.plugins.vim-tmux-navigator',
-  -- require 'custom.plugins.window-picker',
-  -- require 'custom.plugins.parrot',
-  -- require 'custom.plugins.aerial',
+  require 'custom.plugins.window-picker',
+  require 'custom.plugins.parrot',
+  require 'custom.plugins.aerial',
 }
